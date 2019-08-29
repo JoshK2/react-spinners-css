@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import './style.css';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import './style.css'
 
 export default class Circle extends Component {
     render() {
@@ -9,9 +9,9 @@ export default class Circle extends Component {
 }
 
 Circle.propTypes = {
-    color: PropTypes.string
+    color: PropTypes.string,
 }
 
 Circle.defaultProps = {
-    color: '#fff'
+    color: '#fff',
 }

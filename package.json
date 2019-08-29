@@ -30,7 +30,8 @@
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +45,7 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@bit/joshk.jotils.get-random-color": "^2.0.8",
+    "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8"

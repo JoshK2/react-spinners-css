@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import './style.css';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import './style.css'
 
 export default class Ripple extends Component {
     Circles = () => {
-        let div = [];
+        let div = []
         for (let index = 0; index < 2; index++) {
-            div.push(<div style={{borderColor: `${this.props.color}`}}></div>);
+            div.push(<div style={{ borderColor: `${this.props.color}` }}></div>)
         }
-        return div;
+        return div
     }
 
     render() {
@@ -17,9 +17,9 @@ export default class Ripple extends Component {
 }
 
 Ripple.propTypes = {
-    color: PropTypes.string
+    color: PropTypes.string,
 }
 
 Ripple.defaultProps = {
-    color: '#fff'
+    color: '#fff',
 }

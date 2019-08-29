@@ -1,10 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { getRandomColor } from '@bit/joshk.jotils.get-random-color';
-import { Circle, Default, DualRing, Ellipsis, Facebook, Grid, Heart, Hourglass, Ring, Ripple, Roller, Spinner } from './components';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { getRandomColor } from '@bit/joshk.jotils.get-random-color'
+import {
+    Circle,
+    Default,
+    DualRing,
+    Ellipsis,
+    Facebook,
+    Grid,
+    Heart,
+    Hourglass,
+    Ring,
+    Ripple,
+    Roller,
+    Spinner,
+} from './components'
 
 const App = () => {
-    return(
+    return (
         <div>
             <Circle color={getRandomColor()} />
             <Default color={getRandomColor()} />
@@ -22,4 +35,4 @@ const App = () => {
     )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
