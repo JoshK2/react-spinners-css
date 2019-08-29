@@ -17,9 +17,10 @@ export default class Ring extends Component {
 }
 
 Ring.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Ring.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

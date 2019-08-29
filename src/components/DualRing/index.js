@@ -13,9 +13,10 @@ export default class DualRing extends Component {
 }
 
 DualRing.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 DualRing.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

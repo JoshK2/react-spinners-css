@@ -11,13 +11,6 @@ function createArray(length) {
 }
 
 export default class Facebook extends Component {
-    static propTypes = {
-        /** hex color */
-        color: PropTypes.string,
-    }
-
-    static defaultProps = { color: '#fff' }
-
     getCircles = () => {
         return createArray(3).map(() => <div style={{ background: `${this.props.color}` }}></div>)
     }
@@ -25,4 +18,13 @@ export default class Facebook extends Component {
     render() {
         return <div className="lds-facebook">{this.getCircles()}</div>
     }
+}
+
+Facebook.propTypes = {
+    /** hex color */
+    color: PropTypes.string,
+}
+
+Facebook.defaultProps = {
+    color: '#7f58af'
 }

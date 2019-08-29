@@ -16,9 +16,10 @@ export default class Heart extends Component {
 }
 
 Heart.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Heart.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

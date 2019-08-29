@@ -9,9 +9,10 @@ export default class Circle extends Component {
 }
 
 Circle.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Circle.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

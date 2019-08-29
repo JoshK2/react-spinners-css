@@ -17,9 +17,10 @@ export default class Ripple extends Component {
 }
 
 Ripple.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Ripple.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

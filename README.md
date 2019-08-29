@@ -1,77 +1,67 @@
-# react-spinners-css [![npm module](https://badge.fury.io/js/react-spinners-css.svg)](https://www.npmjs.com/package/react-spinners-css) [![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bitsrc.io%2Fscope%2Fjoshk%2Freact-spinners-css)](https://bit.dev/joshk/react-spinners-css)
+# react-spinners-css 
+[![npm module](https://badge.fury.io/js/react-spinners-css.svg)](https://www.npmjs.com/package/react-spinners-css) 
 
-Amazing css spinner for ajax or loading animation from loading.io.  
-What is this project?  
-I see that [loadingio pure css](https://loading.io/css/) is only [built](https://github.com/loadingio/css-spinner) for normal HTML website, and I want to use it for some React project, so I decide to take this project and convert it to React components library and add some features like a color option for each spinner.
+Amazing collection of react spinners components of css spinners for ajax or loading animation based on loading.io.  
 
-## Install loading io spinner for React with npm
-Run the following command:
-```bash
-npm install react-spinners-css
-```  
-## Play and install loading io spinner for React with Bit
-Using [bit](https://bit.dev/joshk/react-spinners-css) to play with live demo, and try loading io spinner before install.
+## List of components
 
-<p align="center">
-  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/10c49b59b69fdc976b5b528469cf0acbc52cb44d.gif"></a>
-</p>
-
-### Install specific loadingio spinner component with bit using npm or yarn without having to install the whole project
-
-set npm regisetry config(one time action):
-```bash
-npm config set '@bit:registry' https://node.bit.dev
-```
-and use your favorite package manager:
-```bash
-bit import joshk.react-spinners-css/ripple 
-npm i @bit/joshk.react-spinners-css.ripple
-yarn add @bit/joshk.react-spinners-css.ripple
-```  
-
-## API
-
-### Components
-
-- `<Circle/>`
-- `<Default/>`
-- `<DualRing/>`
-- `<Ellipsis/>`
-- `<Facebook/>`
-- `<Grid/>`
-- `<Heart/>`
-- `<Hourglass/>`
-- `<Ring/>`
-- `<Ripple/>`
-- `<Roller/>`  
-- `<Spinner/>`
+- `<Circle />`
+- `<Default />`
+- `<DualRing />`
+- `<Ellipsis />`
+- `<Facebook />`
+- `<Grid />`
+- `<Heart />`
+- `<Hourglass />`
+- `<Ring />`
+- `<Ripple />`
+- `<Roller />`  
+- `<Spinner />`
 
 #### Props
 
 | Prop    | Type     | Default |
 | ------- | -------- | ------- |
-| `color` | `string` | `#fff`  |
+| `color` | `string` | `#7f58af`  |
+
+## Installation
+Using [npm](https://www.npmjs.com/package/react-spinners-css) to install react-spinners-css:  
+
+```bash
+$ npm i --save react-spinners-css
+```  
 
 ## Usage Examples
 
-Using [npm](https://www.npmjs.com/package/react-spinners-css), [bit](https://bit.dev/joshk/react-spinners-css):
+Using [npm](https://www.npmjs.com/package/react-spinners-css):
 ```javascript
-import { Roller } from 'react-spinners-css';
-import Ripple from '@bit/joshk.react-spinners-css.ripple';
+import { Circle, Facebook } from "react-spinners-css";
 ...
 render() {
    return(
      <div>
-       <Roller /> //default color is white
-       <Roller color="black" />
-       <Roller color="#000" />
-       <Ripple /> //default color is white
-       <Ripple color="black" />
-       <Ripple color="#000" />
+       <Circle /> //default color is #7f58af
+       <Circle color="red" />
+       <Facebook /> //default color is #7f58af
+       <Facebook color="red" />
      </div>
    )
 }
 ```
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+**Steps to contribute**
+
+1) Fork the project and clone.
+2) Create spinner folder in this [folder](https://github.com/JoshK2/react-spinners-css/tree/master/src/components), name the folder with upper case, and create index file and css file.
+See example of naming in this folder [folder](https://github.com/JoshK2/react-spinners-css/tree/master/src/components/Circle).
+3) The spinner need to be exported with index file inside the spinner folder, so create index.js file to export your spinner.
+3) Add the spinner in index.js file inside components folder.
+4) Run `npm run build` to generate the build folder folder.
+5) Share with the community by submitting a PR.
+
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/JoshK2/react-spinners-css/blob/master/LICENSE)

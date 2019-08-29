@@ -13,9 +13,10 @@ export default class Hourglass extends Component {
 }
 
 Hourglass.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Hourglass.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

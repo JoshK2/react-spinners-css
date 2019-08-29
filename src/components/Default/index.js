@@ -17,9 +17,10 @@ export default class Default extends Component {
 }
 
 Default.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Default.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

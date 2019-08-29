@@ -21,9 +21,10 @@ export default class Spinner extends Component {
 }
 
 Spinner.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Spinner.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

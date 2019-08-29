@@ -17,9 +17,10 @@ export default class Grid extends Component {
 }
 
 Grid.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Grid.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

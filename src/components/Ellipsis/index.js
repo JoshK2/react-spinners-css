@@ -17,9 +17,10 @@ export default class Ellipsis extends Component {
 }
 
 Ellipsis.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Ellipsis.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }

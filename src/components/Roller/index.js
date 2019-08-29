@@ -21,9 +21,10 @@ export default class Roller extends Component {
 }
 
 Roller.propTypes = {
+    /** hex color */
     color: PropTypes.string,
 }
 
 Roller.defaultProps = {
-    color: '#fff',
+    color: '#7f58af'
 }
