@@ -1,12 +1,12 @@
-# react-spinners-css 
+# React Spinners CSS Loaders
 [![npm module](https://badge.fury.io/js/react-spinners-css.svg)](https://www.npmjs.com/package/react-spinners-css)
 [![GitHub stars](https://img.shields.io/github/stars/joshk2/react-spinners-css)](https://github.com/JoshK2/react-spinners-css/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/JoshK2/react-spinners-css/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
-Amazing collection of react spinners components of css spinners for ajax or loading animation based on loading.io.  
+Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
 
-## List of components
+## 🚀 List of components
 
 - `<Circle />`
 - `<Default />`
@@ -27,16 +27,13 @@ Amazing collection of react spinners components of css spinners for ajax or load
 | ------- | -------- | ------- |
 | `color` | `string` | `#7f58af`  |
 
-## Installation
+## 💻 Installation and Usage Examples
 Using [npm](https://www.npmjs.com/package/react-spinners-css) to install react-spinners-css:  
 
 ```bash
 $ npm i --save react-spinners-css
 ```  
 
-## Usage Examples
-
-Using [npm](https://www.npmjs.com/package/react-spinners-css):
 ```javascript
 import { Circle, Facebook } from "react-spinners-css";
 ...
@@ -52,9 +49,14 @@ render() {
 }
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+## 👾 Development
+You can see the components locally by cloning this repo and doing the following steps:
+- Install dependencies from `package.json`, run: `npm install`
+- Run the app in the development mode, run: `npm run start`.  
+
+## ⌨️ Contributing
+- Pull requests and ⭐ stars are always welcome
+- For bugs and feature requests, please create an issue
 
 **Steps to contribute**
 
@@ -66,5 +68,5 @@ See example of naming in this folder [folder](https://github.com/JoshK2/react-sp
 4) Run `npm run build` to generate the build folder folder.
 5) Share with the community by submitting a PR.
 
-## License
+## 📄 License
 [MIT](https://github.com/JoshK2/react-spinners-css/blob/master/LICENSE)

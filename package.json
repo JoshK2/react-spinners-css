@@ -18,9 +18,11 @@
     "css-animations",
     "reactjs",
     "component",
-    "modules",
+    "react-component",
     "react",
+    "react-spinners",
     "spinner",
+    "spinners",
     "loading",
     "loader"
   ],
