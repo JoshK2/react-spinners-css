@@ -14,7 +14,7 @@ import {
     Roller,
     Spinner,
 } from './components'
-import './app.css';
+import './app.css'
 
 const App = () => {
     return (
@@ -80,7 +80,7 @@ const App = () => {
                 <Spinner color="#de3541" />
                 <Spinner />
             </div>
-            <div style={{clear: 'both'}}></div>
+            <div style={{ clear: 'both' }}></div>
         </div>
     )
 }
