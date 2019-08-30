@@ -5,7 +5,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
 Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
-  
+[Install components and live demo](https://bit.dev/joshk/react-spinners-css)
 <p align="center">
   <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/010e655fd10abc5621d067f8b8ad33c7cac7d840.gif"></a>
 </p>
@@ -31,15 +31,37 @@ Amazing collection of pure CSS react spinners components of css spinners for aja
 | ------- | -------- | ------- |
 | `color` | `string` | `#7f58af`  |
 
-## 💻 Installation and Usage Examples
-Using [npm](https://www.npmjs.com/package/react-spinners-css) to install react-spinners-css:  
+## 📦 Installation
+### Using [npm](https://www.npmjs.com/package/react-spinners-css) to install react-spinners-css:  
 
 ```bash
 $ npm i --save react-spinners-css
 ```  
+
+### Play and install react spinners with Bit
+
+Install specific react spinner component with bit, npm or yarn without having to install the whole project.  
+Using [bit](https://bit.dev/joshk/react-spinners-css) to play with live demo, and try the spinners before install.
+
+set npm regisetry config(one time action):
+```bash
+npm config set '@bit:registry' https://node.bit.dev
+```
+and use your favorite package manager:
+```bash
+npm i @bit/joshk.react-spinners-css.facebook
+yarn add @bit/joshk.react-spinners-css.facebook
+bit import joshk.react-spinners-css/facebook 
+```  
+
+## 💻 Usage Examples
+
 you can use a random color from [jotils](https://bit.dev/joshk/jotils/get-random-color)  
 ```javascript
-import { Circle, Facebook, Heart } from "react-spinners-css";
+//using npm or yarn
+import { Circle, Heart } from 'react-spinners-css';
+//using bit
+import Facebook from '@bit/joshk.react-spinners-css.facebook';
 import { getRandomColor } from '@bit/joshk.jotils.get-random-color'
 ...
 render() {
