@@ -7,7 +7,7 @@
 Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
   
 <p align="center">
-  <a href="https://bit.dev/joshk/ng-spinners"><img src="https://i.imagesup.co/images2/010e655fd10abc5621d067f8b8ad33c7cac7d840.gif"></a>
+  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/010e655fd10abc5621d067f8b8ad33c7cac7d840.gif"></a>
 </p>
   
 ## 🚀 List of components
