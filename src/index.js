@@ -80,6 +80,7 @@ const App = () => {
                 <Spinner color="#de3541" />
                 <Spinner />
             </div>
+            <div style={{clear: 'both'}}></div>
         </div>
     )
 }
