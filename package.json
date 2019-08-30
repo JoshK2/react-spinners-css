@@ -1,6 +1,6 @@
 {
   "name": "react-spinners-css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -13,6 +13,9 @@
     "url": "https://github.com/JoshK2/react-spinners-css"
   },
   "keywords": [
+    "react-spinners",
+    "react-spinner",
+    "loadingio",
     "loading-animations",
     "loaders",
     "css-animations",
@@ -20,11 +23,12 @@
     "component",
     "react-component",
     "react",
-    "react-spinners",
     "spinner",
     "spinners",
     "loading",
-    "loader"
+    "loader",
+    "progress",
+    "activity"
   ],
   "author": "JoshK2",
   "license": "MIT",
