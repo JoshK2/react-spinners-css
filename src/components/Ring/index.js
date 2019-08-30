@@ -22,5 +22,5 @@ Ring.propTypes = {
 }
 
 Ring.defaultProps = {
-    color: '#7f58af'
+    color: '#7f58af',
 }

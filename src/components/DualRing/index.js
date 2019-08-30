@@ -18,5 +18,5 @@ DualRing.propTypes = {
 }
 
 DualRing.defaultProps = {
-    color: '#7f58af'
+    color: '#7f58af',
 }

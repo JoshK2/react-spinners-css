@@ -22,5 +22,5 @@ Default.propTypes = {
 }
 
 Default.defaultProps = {
-    color: '#7f58af'
+    color: '#7f58af',
 }

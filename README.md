@@ -5,7 +5,11 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
 Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
-
+  
+<p align="center">
+  <a href="https://bit.dev/joshk/ng-spinners"><img src="https://i.imagesup.co/images2/010e655fd10abc5621d067f8b8ad33c7cac7d840.gif"></a>
+</p>
+  
 ## 🚀 List of components
 
 - `<Circle />`
@@ -33,15 +37,17 @@ Using [npm](https://www.npmjs.com/package/react-spinners-css) to install react-s
 ```bash
 $ npm i --save react-spinners-css
 ```  
-
+you can use a random color from [jotils](https://bit.dev/joshk/jotils/get-random-color)  
 ```javascript
-import { Circle, Facebook } from "react-spinners-css";
+import { Circle, Facebook, Heart } from "react-spinners-css";
+import { getRandomColor } from '@bit/joshk.jotils.get-random-color'
 ...
 render() {
    return(
      <div>
        <Circle /> //default color is #7f58af
        <Circle color="red" />
+       <Heart color={getRandomColor()} />
        <Facebook /> //default color is #7f58af
        <Facebook color="red" />
      </div>
@@ -51,22 +57,12 @@ render() {
 
 ## 👾 Development
 You can see the components locally by cloning this repo and doing the following steps:
-- Install dependencies from `package.json`, run: `npm install`
+- Install dependencies from `package.json`, run: `npm install`.
 - Run the app in the development mode, run: `npm run start`.  
 
 ## ⌨️ Contributing
-- Pull requests and ⭐ stars are always welcome
-- For bugs and feature requests, please create an issue
-
-**Steps to contribute**
-
-1) Fork the project and clone.
-2) Create spinner folder in this [folder](https://github.com/JoshK2/react-spinners-css/tree/master/src/components), name the folder with upper case, and create index file and css file.
-See example of naming in this folder [folder](https://github.com/JoshK2/react-spinners-css/tree/master/src/components/Circle).
-3) The spinner need to be exported with index file inside the spinner folder, so create index.js file to export your spinner.
-3) Add the spinner in index.js file inside components folder.
-4) Run `npm run build` to generate the build folder folder.
-5) Share with the community by submitting a PR.
+- Pull requests and ⭐ stars are always welcome.
+- For bugs and feature requests, please create an issue.
 
 ## 📄 License
 [MIT](https://github.com/JoshK2/react-spinners-css/blob/master/LICENSE)

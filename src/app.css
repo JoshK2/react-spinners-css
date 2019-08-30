@@ -1,0 +1,15 @@
+.main {
+    text-align: center;
+    width: 820px;
+    margin: auto;
+}
+.block {
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+.loader {
+    margin: 20px;
+}

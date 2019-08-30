@@ -18,5 +18,5 @@ Hourglass.propTypes = {
 }
 
 Hourglass.defaultProps = {
-    color: '#7f58af'
+    color: '#7f58af',
 }
