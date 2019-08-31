@@ -1,6 +1,6 @@
 {
   "name": "react-spinners-css",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -12,6 +12,7 @@
     "type": "git",
     "url": "https://github.com/JoshK2/react-spinners-css"
   },
+  "homepage": "https://bit.dev/joshk/react-spinners-css",
   "keywords": [
     "react-spinners",
     "react-spinner",
