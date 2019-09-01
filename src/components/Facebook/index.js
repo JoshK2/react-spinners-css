@@ -7,12 +7,12 @@ function createArray(length) {
     for (let num = 0; num < length; num++) {
         array.push(null)
     }
-    return array
+    return array;
 }
 
 export default class Facebook extends Component {
     getCircles = () => {
-        return createArray(3).map(() => <div style={{ background: `${this.props.color}` }}></div>)
+        return createArray(3).map((val, index) => <div key={index} style={{ background: `${this.props.color}` }}></div>)
     }
 
     render() {

@@ -6,9 +6,9 @@ export default class Ellipsis extends Component {
     Circles = () => {
         let div = []
         for (let index = 0; index < 4; index++) {
-            div.push(<div style={{ background: `${this.props.color}` }}></div>)
+            div.push(<div key={index} style={{ background: `${this.props.color}` }}></div>)
         }
-        return div
+        return div;
     }
 
     render() {

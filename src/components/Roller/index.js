@@ -7,12 +7,12 @@ export default class Roller extends Component {
         let div = []
         for (let index = 0; index < 8; index++) {
             div.push(
-                <div>
+                <div key={index}>
                     <div className="div-after" style={{ background: this.props.color }}></div>
                 </div>
             )
         }
-        return div
+        return div;
     }
 
     render() {

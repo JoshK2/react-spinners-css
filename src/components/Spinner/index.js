@@ -7,7 +7,7 @@ export default class Spinner extends Component {
         let div = []
         for (let index = 0; index < 12; index++) {
             div.push(
-                <div>
+                <div key={index}>
                     <div className="div-after" style={{ background: this.props.color }}></div>
                 </div>
             )
