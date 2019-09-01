@@ -4,15 +4,19 @@ import './style.css'
 
 export default class Circle extends Component {
     render() {
-        return <div className="lds-circle" style={{ background: this.props.color }}></div>
+        const { color, size } = this.props;
+        return <div className="lds-circle" style={{ background: color, width: size, height: size }}></div>
     }
 }
 
 Circle.propTypes = {
     /** hex color */
     color: PropTypes.string,
+    /** size in pixel */
+    size: PropTypes.number,
 }
 
 Circle.defaultProps = {
     color: '#7f58af',
+    size: 64,
 }
