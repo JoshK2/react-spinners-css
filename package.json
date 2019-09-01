@@ -36,9 +36,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build:bit": "rm -rf dist && bit build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "deploy:npm": "npm publish",
+    "deploy:bit": "bit export joshk.react-spinners-css"
   },
   "eslintConfig": {
     "extends": "react-app"
