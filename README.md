@@ -11,26 +11,27 @@ Amazing collection of pure CSS react spinners components of css spinners for aja
   <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/010e655fd10abc5621d067f8b8ad33c7cac7d840.gif"></a>
 </p>
   
-## 🚀 List of components
+## 🚀 List of Spinners - PropTypes and Default Props
 
-- `<Circle />`
-- `<Default />`
-- `<DualRing />`
-- `<Ellipsis />`
-- `<Facebook />`
-- `<Grid />`
-- `<Heart />`
-- `<Hourglass />`
-- `<Ring />`
-- `<Ripple />`
-- `<Roller />`  
-- `<Spinner />`
+Each component accepts a `color` prop, and few accepts also `size` prop.
+The default `color` prop is `#7f58af`.
+Component that accepts `size` prop have a default size in pixel.
 
-#### Props
+| Spinner          | Color: string | Size: number  |
+| ---------------- | ------------  | ------------- |
+| Circle Spinner   | `#7f58af`     | `64px`        |
+| Default Spinner  | `#7f58af`     | -             |
+| DualRing Spinner | `#7f58af`     | -             |
+| Ellipsis Spinner | `#7f58af`     | -             |
+| Facebook Spinner | `#7f58af`     | -             |
+| Grid Spinner     | `#7f58af`     | -             |
+| Heart Spinner    | `#7f58af`     | -             |
+| Hourglass Spinner| `#7f58af`     | -             |
+| Ring Spinner     | `#7f58af`     | `80px`        |
+| Ripple Spinner   | `#7f58af`     | -             |
+| Roller Spinner   | `#7f58af`     | -             |
+| Spinner Spinner  | `#7f58af`     | -             |
 
-| Prop    | Type     | Default |
-| ------- | -------- | ------- |
-| `color` | `string` | `#7f58af`  |
 
 ## 📦 Installation
 ### Using [npm](https://www.npmjs.com/package/react-spinners-css) to install react-spinners-css:  

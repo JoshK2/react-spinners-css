@@ -16,10 +16,10 @@ import {
 } from './components'
 import './app.css'
 
-const App = () => {
+const ColorProp = () => {
     return (
         <div className="main">
-            <h1>React Spinners</h1>
+            <h2>Color Property</h2>
             <div className="block">
                 <Circle color="black" />
                 <Circle color="#de3541" />
@@ -81,6 +81,35 @@ const App = () => {
                 <Spinner />
             </div>
             <div style={{ clear: 'both' }}></div>
+        </div>
+    )
+}
+
+const SizeProp = () => {
+    return (
+        <div className="main">
+            <h2>Size Property</h2>
+            <div className="block">
+                <Circle />
+                <Circle size={32} />
+                <Circle size={16} />
+            </div>
+            <div className="block">
+                <Ring />
+                <Ring size={40} />
+                <Ring size={20} />
+            </div>
+            <div style={{ clear: 'both' }}></div>
+        </div>
+    )
+}
+
+const App = () => {
+    return (
+        <div className="main">
+            <h1>React Spinners</h1>
+            <ColorProp />
+            <SizeProp />
         </div>
     )
 }
