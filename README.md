@@ -13,8 +13,8 @@ Amazing collection of pure CSS react spinners components of css spinners for aja
   
 ## 🚀 List of Spinners - PropTypes and Default Props
 
-Each component accepts a `color` prop, and few accepts also `size` prop.
-The default `color` prop is `#7f58af`.
+Each component accepts a `color` prop, and few accepts also `size` prop.  
+The default `color` prop is `#7f58af`.  
 Component that accepts `size` prop have a default size in pixel.
 
 | Spinner          | Color: string | Size: number  |
