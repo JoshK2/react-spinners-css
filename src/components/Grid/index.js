@@ -1,19 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 
-export default class Grid extends Component {
-    Circles = () => {
-        let div = []
-        for (let index = 0; index < 9; index++) {
-            div.push(<div key={index} style={{ background: `${this.props.color}` }}></div>)
-        }
-        return div;
-    }
+export default function Grid({ color }) {
+  const circles = [...Array(9)].map((_, index) => (
+    <div key={index} style={{ background: `${color}` }} />
+  ));
 
-    render() {
-        return <div className="lds-grid">{this.Circles()}</div>
-    }
+  return <div className="lds-grid">{circles}</div>;
 }
 
 Grid.propTypes = {
