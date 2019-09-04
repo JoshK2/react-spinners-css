@@ -2,17 +2,9 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 
-function createArray(length) {
-    let array = []
-    for (let num = 0; num < length; num++) {
-        array.push(null)
-    }
-    return array;
-}
-
 export default class Facebook extends Component {
     getCircles = () => {
-        return createArray(3).map((val, index) => <div key={index} style={{ background: `${this.props.color}` }}></div>)
+        return [...Array(3)].map((val, index) => <div key={index} style={{ background: `${this.props.color}` }}></div>)
     }
 
     render() {
