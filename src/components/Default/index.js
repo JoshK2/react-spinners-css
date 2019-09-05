@@ -1,19 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 
-export default class Default extends Component {
-    Circles = () => {
-        let div = []
-        for (let index = 0; index < 12; index++) {
-            div.push(<div key={index} style={{ background: `${this.props.color}` }}></div>)
-        }
-        return div;
-    }
+export default function Default({ color }) {
+  const circles = [...Array(12)].map((_, index) => (
+    <div key={index} style={{ background: `${color}` }} />
+  ));
 
-    render() {
-        return <div className="lds-default">{this.Circles()}</div>
-    }
+  return <div className="lds-default">{circles}</div>;
 }
 
 Default.propTypes = {
