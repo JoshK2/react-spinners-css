@@ -126,7 +126,7 @@ const SizeProp = () => {
 const App = () => {
     return (
         <div>
-            <h1 style={{textAlign: 'center'}}>React Spinners</h1>
+            <h1 style={{ textAlign: 'center' }}>React Spinners</h1>
             <Spinners />
             <ColorProp />
             <SizeProp />

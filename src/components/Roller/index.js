@@ -12,7 +12,7 @@ export default class Roller extends Component {
                 </div>
             )
         }
-        return div;
+        return div
     }
 
     render() {

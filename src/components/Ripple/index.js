@@ -8,7 +8,7 @@ export default class Ripple extends Component {
         for (let index = 0; index < 2; index++) {
             div.push(<div key={index} style={{ borderColor: `${this.props.color}` }}></div>)
         }
-        return div;
+        return div
     }
 
     render() {

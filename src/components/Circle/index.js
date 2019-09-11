@@ -4,7 +4,7 @@ import './style.css'
 
 export default class Circle extends Component {
     render() {
-        const { color, size } = this.props;
+        const { color, size } = this.props
         return <div className="lds-circle" style={{ background: color, width: size, height: size }}></div>
     }
 }

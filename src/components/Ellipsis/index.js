@@ -8,7 +8,7 @@ export default class Ellipsis extends Component {
         for (let index = 0; index < 4; index++) {
             div.push(<div key={index} style={{ background: `${this.props.color}` }}></div>)
         }
-        return div;
+        return div
     }
 
     render() {
