@@ -5,11 +5,21 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/JoshK2/react-spinners-css/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
-Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
-[Install components and live demo](https://bit.dev/joshk/react-spinners-css)
 <p align="center">
-  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/010e655fd10abc5621d067f8b8ad33c7cac7d840.gif"></a>
+  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/e5832341d5d3e440221cf80650042792a99e39f7.gif"></a>
 </p>
+
+Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
+- 💅No extra CSS imports
+- ✂️Zero dependencies  
+- 📦Spinners can be installing separately
+
+## [Live Demo](https://bit.dev/joshk/react-spinners-css)
+
+Browse components and explore their props with [Bit](https://bit.dev/joshk/react-spinners-css).  
+Install specific react spinner component with npm, yarn or bit without having to install the whole project.  
+[Install components and live demo](https://bit.dev/joshk/react-spinners-css)
+
   
 ## 🚀 List of Spinners - PropTypes and Default Props
 
