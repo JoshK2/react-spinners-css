@@ -94,7 +94,7 @@ You can see the components locally by cloning this repo and doing the following 
 - Install dependencies from `package.json`, run: `npm install`.
 - Run the app in the development mode, run: `npm run start`.  
 
-## ⌨️ Contributing
+## 🙌 Contributing
 - Pull requests and ⭐ stars are always welcome.
 - For bugs and feature requests, please create an issue.
 
