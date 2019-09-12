@@ -9,6 +9,7 @@ import {
     Grid,
     Heart,
     Hourglass,
+    Orbitals,
     Ring,
     Ripple,
     Roller,
@@ -31,6 +32,7 @@ const Spinners = () => {
             <Ripple color="#be97e8" />
             <Roller color="#be97e8" />
             <Spinner color="#be97e8" />
+            <Orbitals color="#be97e8" />
         </div>
     )
 }
@@ -98,6 +100,11 @@ const ColorProp = () => {
                 <Spinner color="#54f1d2" />
                 <Spinner color="#be97e8" />
                 <Spinner />
+            </div>
+            <div className="block">
+                <Orbitals color="#54f1d2" />
+                <Orbitals color="#be97e8" />
+                <Orbitals />
             </div>
             <div style={{ clear: 'both' }}></div>
         </div>

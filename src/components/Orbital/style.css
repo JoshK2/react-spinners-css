@@ -1,0 +1,138 @@
+html {
+    --center: translate(-50%, -50%);
+}
+
+.lds-orbitals {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.center {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: var(--center);
+}
+
+.outer-spin,
+.inner-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.inner-arc {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 3px solid;
+}
+
+.inner-arc_start-a {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(45deg);
+}
+
+.inner-arc_end-a {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(25deg);
+}
+
+.inner-moon-a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: var(--center) translate(17px, 0);
+}
+
+.inner-moon-b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: var(--center) translate(-17px, 0);
+}
+
+.inner-arc_start-b {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(65deg) scale(-1, -1);
+}
+
+.inner-arc_end-b {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(45deg) scale(-1, -1);
+}
+
+.outer-arc {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid;
+}
+
+.outer-arc_start-a {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(65deg);
+}
+
+.outer-arc_end-a {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(45deg);
+}
+
+.outer-moon-a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    transform: var(--center) translate(32px, 0);
+}
+
+.outer-moon-b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    transform: var(--center) translate(-32px, 0);
+}
+
+.outer-arc_start-b {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(65deg) scale(-1, -1);
+}
+
+.outer-arc_end-b {
+    border-color: transparent transparent transparent;
+    transform: var(--center) rotate(45deg) scale(-1, -1);
+}
+
+.outer-spin {
+    animation: spin 4s linear infinite;
+}
+
+.inner-spin {
+    animation: spin 3s linear infinite;
+}
+
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
