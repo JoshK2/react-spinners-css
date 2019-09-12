@@ -10,6 +10,7 @@
 </p>
 
 Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
+
 - 💅No extra CSS imports
 - ✂️Zero dependencies  
 - 📦Spinners can be installing separately
