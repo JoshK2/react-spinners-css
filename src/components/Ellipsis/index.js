@@ -1,26 +1,28 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 
-export default class Ellipsis extends Component {
-    Circles = () => {
-        let div = []
-        for (let index = 0; index < 4; index++) {
-            div.push(<div key={index} style={{ background: `${this.props.color}` }}></div>)
-        }
-        return div
-    }
+export default function Ellipsis({ color, className, style }) {
+    const circles = [...Array(4)].map((_, index) => <div key={index} style={{ background: `${color}` }} />)
 
-    render() {
-        return <div className="lds-ellipsis">{this.Circles()}</div>
-    }
+    return (
+        <div className={`lds-ellipsis ${className}`} style={{ ...style }}>
+            {circles}
+        </div>
+    )
 }
 
 Ellipsis.propTypes = {
     /** hex color */
     color: PropTypes.string,
+    /** class name  */
+    className: PropTypes.string,
+    /** style object */
+    style: PropTypes.object,
 }
 
 Ellipsis.defaultProps = {
     color: '#7f58af',
+    className: '',
+    style: {},
 }

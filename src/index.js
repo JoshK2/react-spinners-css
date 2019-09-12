@@ -19,18 +19,42 @@ import './app.css'
 const Spinners = () => {
     return (
         <div className="normal-spinners">
-            <Circle color="#be97e8" />
-            <Default color="#be97e8" />
-            <DualRing color="#be97e8" />
-            <Ellipsis color="#be97e8" />
-            <Facebook color="#be97e8" />
-            <Grid color="#be97e8" />
-            <Heart color="#be97e8" />
-            <Hourglass color="#be97e8" />
-            <Ring color="#be97e8" />
-            <Ripple color="#be97e8" />
-            <Roller color="#be97e8" />
-            <Spinner color="#be97e8" />
+            <Circle color="#be97e8" className="test-class" style={{ borderRadius: '30%', backgroundColor: 'yellow' }} />
+            <Default
+                color="#be97e8"
+                className="test-class"
+                style={{ borderRadius: '30%', backgroundColor: 'yellow' }}
+            />
+            <DualRing
+                color="#be97e8"
+                className="test-class"
+                style={{ borderRadius: '30%', backgroundColor: 'yellow' }}
+            />
+            <Ellipsis
+                color="#be97e8"
+                className="test-class"
+                style={{ borderRadius: '30%', backgroundColor: 'yellow' }}
+            />
+            <Facebook
+                color="#be97e8"
+                className="test-class"
+                style={{ borderRadius: '30%', backgroundColor: 'yellow' }}
+            />
+            <Grid color="#be97e8" className="test-class" style={{ borderRadius: '30%', backgroundColor: 'yellow' }} />
+            <Heart color="#be97e8" className="test-class" style={{ borderRadius: '30%', backgroundColor: 'yellow' }} />
+            <Hourglass
+                color="#be97e8"
+                className="test-class"
+                style={{ borderRadius: '30%', backgroundColor: 'yellow' }}
+            />
+            <Ring color="#be97e8" className="test-class" style={{ borderRadius: '30%', backgroundColor: 'yellow' }} />
+            <Ripple color="#be97e8" className="test-class" style={{ borderRadius: '30%', backgroundColor: 'yellow' }} />
+            <Roller color="#be97e8" className="test-class" style={{ borderRadius: '30%', backgroundColor: 'yellow' }} />
+            <Spinner
+                color="#be97e8"
+                className="test-class"
+                style={{ borderRadius: '30%', backgroundColor: 'yellow' }}
+            />
         </div>
     )
 }

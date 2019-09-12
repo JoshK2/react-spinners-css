@@ -1,30 +1,34 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 
-export default class Roller extends Component {
-    Circles = () => {
-        let div = []
-        for (let index = 0; index < 8; index++) {
-            div.push(
-                <div key={index}>
-                    <div className="div-after" style={{ background: this.props.color }}></div>
-                </div>
-            )
-        }
-        return div
-    }
+export default function Roller({ color, className, style }) {
+    const circles = [...Array(8)].map((_, index) => {
+        return (
+            <div key={index}>
+                <div className="div-after" style={{ background: color }}></div>
+            </div>
+        )
+    })
 
-    render() {
-        return <div className="lds-roller">{this.Circles()}</div>
-    }
+    return (
+        <div className={`lds-roller ${className}`} style={{ ...style }}>
+            {circles}
+        </div>
+    )
 }
 
 Roller.propTypes = {
     /** hex color */
     color: PropTypes.string,
+    /** class name  */
+    className: PropTypes.string,
+    /** style object */
+    style: PropTypes.object,
 }
 
 Roller.defaultProps = {
     color: '#7f58af',
+    className: '',
+    style: {},
 }
