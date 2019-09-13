@@ -5,22 +5,22 @@ import './style.css'
 export default function Orbitals({ color, className, style }) {
     return (
         <div className={`lds-orbitals ${className}`} style={{ ...style }}>
-            <div class="center" style={{ background: color }}></div>
-            <div class="inner-spin">
-                <div class="inner-arc inner-arc_start-a" style={{ 'border-color': color }}></div>
-                <div class="inner-arc inner-arc_end-a" style={{ 'border-color': color }}></div>
-                <div class="inner-arc inner-arc_start-b" style={{ 'border-color': color }}></div>
-                <div class="inner-arc inner-arc_end-b" style={{ 'border-color': color }}></div>
-                <div class="inner-moon-a" style={{ background: color }}></div>
-                <div class="inner-moon-b" style={{ background: color }}></div>
+            <div className="center" style={{ background: color }}></div>
+            <div className="inner-spin">
+                <div className="inner-arc inner-arc_start-a" style={{ borderColor: color }}></div>
+                <div className="inner-arc inner-arc_end-a" style={{ borderColor: color }}></div>
+                <div className="inner-arc inner-arc_start-b" style={{ borderColor: color }}></div>
+                <div className="inner-arc inner-arc_end-b" style={{ borderColor: color }}></div>
+                <div className="inner-moon-a" style={{ background: color }}></div>
+                <div className="inner-moon-b" style={{ background: color }}></div>
             </div>
-            <div class="outer-spin">
-                <div class="outer-arc outer-arc_start-a" style={{ 'border-color': color }}></div>
-                <div class="outer-arc outer-arc_end-a" style={{ 'border-color': color }}></div>
-                <div class="outer-arc outer-arc_start-b" style={{ 'border-color': color }}></div>
-                <div class="outer-arc outer-arc_end-b" style={{ 'border-color': color }}></div>
-                <div class="outer-moon-a" style={{ background: color }}></div>
-                <div class="outer-moon-b" style={{ background: color }}></div>
+            <div className="outer-spin">
+                <div className="outer-arc outer-arc_start-a" style={{ borderColor: color }}></div>
+                <div className="outer-arc outer-arc_end-a" style={{ borderColor: color }}></div>
+                <div className="outer-arc outer-arc_start-b" style={{ borderColor: color }}></div>
+                <div className="outer-arc outer-arc_end-b" style={{ borderColor: color }}></div>
+                <div className="outer-moon-a" style={{ background: color }}></div>
+                <div className="outer-moon-b" style={{ background: color }}></div>
             </div>
         </div>
     )
