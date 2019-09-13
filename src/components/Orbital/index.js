@@ -21,7 +21,6 @@ export default function Orbitals({ color, className, style }) {
                 <div class="outer-arc outer-arc_end-b" style={{ 'border-color': color }}></div>
                 <div class="outer-moon-a" style={{ background: color }}></div>
                 <div class="outer-moon-b" style={{ background: color }}></div>
-
             </div>
         </div>
     )

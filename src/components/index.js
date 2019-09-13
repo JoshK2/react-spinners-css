@@ -12,4 +12,18 @@ import Ripple from './Ripple'
 import Roller from './Roller'
 import Spinner from './Spinner'
 
-export { Circle, Default, DualRing, Ellipsis, Facebook, Grid, Heart, Hourglass, Orbitals, Ring, Ripple, Roller, Spinner }
+export {
+    Circle,
+    Default,
+    DualRing,
+    Ellipsis,
+    Facebook,
+    Grid,
+    Heart,
+    Hourglass,
+    Orbitals,
+    Ring,
+    Ripple,
+    Roller,
+    Spinner,
+}
