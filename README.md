@@ -7,7 +7,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
 <p align="center">
-  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/e5832341d5d3e440221cf80650042792a99e39f7.gif"></a>
+  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/1990710a88808ee8914167c74f57e604c5ed91fe.gif"></a>
 </p>
 
 Amazing collection of pure CSS react spinners components of css spinners for ajax or loading animation based on loading.io.  
