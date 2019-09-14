@@ -31,7 +31,7 @@ Component that accepts `size` prop have a default size in pixel.
 
 | Spinner          | color: string | size: number  | className: string | style: object |
 | ---------------- | ------------  | ------------- | ----------------- | ------------- |
-| Circle Spinner   | `#7f58af`     | `64px`        | `""`              | `{}`          |
+| Circle Spinner   | `#7f58af`     | `64`          | `""`              | `{}`          |
 | Default Spinner  | `#7f58af`     | -             | `""`              | `{}`          |
 | DualRing Spinner | `#7f58af`     | -             | `""`              | `{}`          |
 | Ellipsis Spinner | `#7f58af`     | -             | `""`              | `{}`          |
@@ -39,7 +39,7 @@ Component that accepts `size` prop have a default size in pixel.
 | Grid Spinner     | `#7f58af`     | -             | `""`              | `{}`          |
 | Heart Spinner    | `#7f58af`     | -             | `""`              | `{}`          |
 | Hourglass Spinner| `#7f58af`     | -             | `""`              | `{}`          |
-| Ring Spinner     | `#7f58af`     | `80px`        | `""`              | `{}`          |
+| Ring Spinner     | `#7f58af`     | `80`          | `""`              | `{}`          |
 | Ripple Spinner   | `#7f58af`     | -             | `""`              | `{}`          |
 | Roller Spinner   | `#7f58af`     | -             | `""`              | `{}`          |
 | Spinner Spinner  | `#7f58af`     | -             | `""`              | `{}`          |
@@ -81,6 +81,7 @@ render() {
      <div>
        <Circle /> //default color is #7f58af
        <Circle color="red" />
+       <Circle color="#be97e8" size={200} /> //size prop is number in pixel
        <Heart color={getRandomColor()} />
        <Facebook /> //default color is #7f58af
        <Facebook color="red" />
