@@ -116,14 +116,14 @@ const SizeProp = () => {
         <div className="main">
             <h2>Size Property</h2>
             <div className="block">
-                <Circle color="#54f1d2" />
-                <Circle color="#54f1d2" size={32} />
-                <Circle color="#54f1d2" size={16} />
+                <Circle color="#be97e8" />
+                <Circle color="#be97e8" size={32} />
+                <Circle color="#be97e8" size={16} />
             </div>
             <div className="block">
-                <Ring color="#54f1d2" />
-                <Ring color="#54f1d2" size={40} />
-                <Ring color="#54f1d2" size={20} />
+                <Ring color="#be97e8" />
+                <Ring color="#be97e8" size={40} />
+                <Ring color="#be97e8" size={20} />
             </div>
             <div style={{ clear: 'both' }}></div>
         </div>

@@ -145,6 +145,24 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "joshk.react-spinners-css/orbitals@1.1.0": {
+        "files": [
+            {
+                "relativePath": "src/components/Orbitals/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/components/Orbitals/style.css",
+                "test": false,
+                "name": "style.css"
+            }
+        ],
+        "mainFile": "src/components/Orbitals/index.js",
+        "trackDir": "src/components/Orbitals",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "joshk.react-spinners-css/ring@1.1.0": {
         "files": [
             {
