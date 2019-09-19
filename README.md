@@ -101,7 +101,7 @@ You can see the components locally by cloning this repo and doing the following 
 - For bugs and feature requests, please create an issue.
 - If you want to add your own spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
 
-## 👏🏻Support my open-source
+## 👏🏻 Support my open-source
 If you like to support my open-source contributions and feeling generous, feel free to:
 
 <a href="https://www.buymeacoffee.com/s2cv3IikA" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
