@@ -4,14 +4,14 @@ import './style.css'
 
 export default function Ouroboro({ color, className, style }) {
     return (
-            <div className="spinner" >
-                <span className="left"  >
-                    <span className="anim"  style={{ background: color }}></span>
-                </span>
-                <span className="right" >
-                    <span className="anim"  style={{ background: color }}></span>
-                </span>
-            </div>
+        <div className="spinner">
+            <span className="left">
+                <span className="anim" style={{ background: color }}></span>
+            </span>
+            <span className="right">
+                <span className="anim" style={{ background: color }}></span>
+            </span>
+        </div>
     )
 }
 
