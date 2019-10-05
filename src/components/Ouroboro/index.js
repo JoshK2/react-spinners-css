@@ -5,11 +5,11 @@ import './style.css'
 export default function Ouroboro({ color, className, style }) {
     return (
             <div className="spinner" >
-                <span className="left" >
-                    <span className="anim" ></span>
+                <span className="left"  >
+                    <span className="anim"  style={{ background: color }}></span>
                 </span>
                 <span className="right" >
-                    <span clasName="anim"></span>
+                    <span className="anim"  style={{ background: color }}></span>
                 </span>
             </div>
     )
