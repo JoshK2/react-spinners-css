@@ -4,7 +4,7 @@ import './style.css'
 
 export default function Ouroboro({ color, size, className, style }) {
     return (
-        <div className="spinner"  style={{ width: size, height: size }}>
+        <div className="spinner" style={{ width: size, height: size }}>
             <span className="left">
                 <span className="anim" style={{ background: color }}></span>
             </span>
@@ -18,7 +18,7 @@ export default function Ouroboro({ color, size, className, style }) {
 Ouroboro.propTypes = {
     /** hex color */
     color: PropTypes.string,
-/** size in pixel */
+    /** size in pixel */
     size: PropTypes.number,
     /** class name  */
     className: PropTypes.string,
