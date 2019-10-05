@@ -4,7 +4,6 @@ import './style.css'
 
 export default function Ouroboro({ color, className, style }) {
     return (
-        <div className="circle" >
             <div className="spinner" >
                 <span className="left" >
                     <span className="anim" ></span>
@@ -13,7 +12,6 @@ export default function Ouroboro({ color, className, style }) {
                     <span clasName="anim"></span>
                 </span>
             </div>
-        </div>
     )
 }
 
