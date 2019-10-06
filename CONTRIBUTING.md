@@ -13,4 +13,5 @@
 1) Fork and clone the project.
 2) Update the code or add your features, and don't forget to update `propTypes` if needs.
 3) Run the project to see that your update is working correctly.
-4) Run `npm run format` to run prettier formater, and share with the community by submitting a PR.
+4) Update the props in the spinners table if needs in the [README](README.md) file.
+5) Run `npm run format` to run prettier formater, and share with the community by submitting a PR.
