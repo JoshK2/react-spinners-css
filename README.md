@@ -100,6 +100,7 @@ You can see the components locally by cloning this repo and doing the following 
 - Pull requests and ⭐ stars are always welcome.
 - For bugs and feature requests, please create an issue.
 - If you want to add your own spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
+- If you want to update or add features to some spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
 
 ## 👏🏻 Support my open-source
 If you like to support my open-source contributions and feeling generous, feel free to:
