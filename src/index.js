@@ -14,6 +14,7 @@ import {
     Ripple,
     Roller,
     Spinner,
+    Ouroboro,
 } from './components'
 import './app.css'
 
@@ -33,6 +34,7 @@ const Spinners = () => {
             <Roller color="#be97e8" />
             <Spinner color="#be97e8" />
             <Orbitals color="#be97e8" />
+            <Ouroboro color="#be97e8" />
         </div>
     )
 }
@@ -105,6 +107,11 @@ const ColorProp = () => {
                 <Orbitals color="#54f1d2" />
                 <Orbitals color="#be97e8" />
                 <Orbitals />
+            </div>
+            <div className="block">
+                <Ouroboro color="#54f1d2" />
+                <Ouroboro color="#be97e8" />
+                <Ouroboro />
             </div>
             <div style={{ clear: 'both' }}></div>
         </div>
