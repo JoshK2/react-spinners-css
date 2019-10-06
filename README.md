@@ -36,7 +36,7 @@ Component that accepts `size` prop have a default size in pixel.
 | `<Default/>`     | `#7f58af`     | -             | `""`              | `{}`          |
 | `<DualRing/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Ellipsis/>`    | `#7f58af`     | -             | `""`              | `{}`          |
-| `<Facebook/>`    | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Facebook/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Grid/>`        | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Heart/>`       | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Hourglass/>`   | `#7f58af`     | -             | `""`              | `{}`          |

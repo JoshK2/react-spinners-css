@@ -142,6 +142,11 @@ const SizeProp = () => {
                 <Heart color="#be97e8" size={40} />
                 <Heart color="#be97e8" size={20} />
             </div>
+            <div className="block">
+                <Facebook color="#be97e8" />
+                <Facebook color="#be97e8" size={40} />
+                <Facebook color="#be97e8" size={20} />
+            </div>
             <div style={{ clear: 'both' }}></div>
         </div>
     )
