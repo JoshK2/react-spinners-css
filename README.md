@@ -41,7 +41,7 @@ Component that accepts `size` prop have a default size in pixel.
 | `<Heart/>`       | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Hourglass/>`   | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Ring/>`        | `#7f58af`     | `80`          | `""`              | `{}`          |
-| `<Ripple/>`      | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Ripple/>`      | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Roller/>`      | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Spinner/>`     | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Orbitals/>`    | `#7f58af`     | -             | `""`              | `{}`          |

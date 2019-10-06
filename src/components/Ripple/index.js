@@ -3,12 +3,15 @@ import PropTypes from 'prop-types'
 import './style.css'
 
 export default function Ripple({ color, className, style, size }) {
-    const circles = [...Array(2)].map((_, index) => <div
-        key={index}
-        style={{
-            borderColor: `${color}`,
-            borderWidth: size * 0.05,
-        }} />)
+    const circles = [...Array(2)].map((_, index) => (
+        <div
+            key={index}
+            style={{
+                borderColor: `${color}`,
+                borderWidth: size * 0.05,
+            }}
+        />
+    ))
 
     return (
         <div className={`lds-ripple ${className}`} style={{ width: size, height: size, ...style }}>
