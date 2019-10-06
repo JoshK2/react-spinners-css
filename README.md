@@ -34,11 +34,11 @@ Component that accepts `size` prop have a default size in pixel.
 | ---------------- | ------------  | ------------- | ----------------- | ------------- |
 | `<Circle/>`      | `#7f58af`     | `64`          | `""`              | `{}`          |
 | `<Default/>`     | `#7f58af`     | -             | `""`              | `{}`          |
-| `<DualRing/>`    | `#7f58af`     | -             | `""`              | `{}`          |
+| `<DualRing/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Ellipsis/>`    | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Facebook/>`    | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Grid/>`        | `#7f58af`     | -             | `""`              | `{}`          |
-| `<Heart/>`       | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Heart/>`       | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Hourglass/>`   | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Ring/>`        | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Ripple/>`      | `#7f58af`     | -             | `""`              | `{}`          |
@@ -100,6 +100,7 @@ You can see the components locally by cloning this repo and doing the following 
 - Pull requests and ⭐ stars are always welcome.
 - For bugs and feature requests, please create an issue.
 - If you want to add your own spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
+- If you want to update or add features to some spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
 
 ## 👏🏻 Support my open-source
 If you like to support my open-source contributions and feeling generous, feel free to:

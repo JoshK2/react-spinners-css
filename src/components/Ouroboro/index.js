@@ -4,7 +4,7 @@ import './style.css'
 
 export default function Ouroboro({ color, size, className, style }) {
     return (
-        <div className="spinner" style={{ width: size, height: size }}>
+        <div className={`lds-ouroboro ${className}`} style={{ ...style }}>
             <span className="left">
                 <span className="anim" style={{ background: color }}></span>
             </span>
