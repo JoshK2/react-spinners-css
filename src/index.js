@@ -132,6 +132,16 @@ const SizeProp = () => {
                 <Ring color="#be97e8" size={40} />
                 <Ring color="#be97e8" size={20} />
             </div>
+            <div className="block">
+                <DualRing color="#be97e8" />
+                <DualRing color="#be97e8" size={40} />
+                <DualRing color="#be97e8" size={20} />
+            </div>
+            <div className="block">
+                <Heart color="#be97e8" />
+                <Heart color="#be97e8" size={40} />
+                <Heart color="#be97e8" size={20} />
+            </div>
             <div style={{ clear: 'both' }}></div>
         </div>
     )
