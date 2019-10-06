@@ -11,6 +11,7 @@ import Ring from './Ring'
 import Ripple from './Ripple'
 import Roller from './Roller'
 import Spinner from './Spinner'
+import Ouroboro from './Ouroboro'
 
 export {
     Circle,
@@ -26,4 +27,5 @@ export {
     Ripple,
     Roller,
     Spinner,
+    Ouroboro,
 }
