@@ -2,11 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 
-export default function Ripple({ color, className, style }) {
-    const circles = [...Array(2)].map((_, index) => <div key={index} style={{ borderColor: `${color}` }} />)
+export default function Ripple({ color, className, style, size }) {
+    const circles = [...Array(2)].map((_, index) => <div
+        key={index}
+        style={{
+            borderColor: `${color}`,
+            borderWidth: size * 0.05,
+        }} />)
 
     return (
-        <div className={`lds-ripple ${className}`} style={{ ...style }}>
+        <div className={`lds-ripple ${className}`} style={{ width: size, height: size, ...style }}>
             {circles}
         </div>
     )
@@ -19,10 +24,13 @@ Ripple.propTypes = {
     className: PropTypes.string,
     /** style object */
     style: PropTypes.object,
+    /** size in pixel */
+    size: PropTypes.number,
 }
 
 Ripple.defaultProps = {
     color: '#7f58af',
     className: '',
     style: {},
+    size: 80,
 }
