@@ -37,7 +37,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.react-spinners-css/dual-ring@1.1.0": {
+    "joshk.react-spinners-css/dual-ring@1.1.1": {
         "files": [
             {
                 "relativePath": "src/components/DualRing/index.js",
@@ -109,7 +109,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.react-spinners-css/heart@1.1.0": {
+    "joshk.react-spinners-css/heart@1.1.1": {
         "files": [
             {
                 "relativePath": "src/components/Heart/index.js",
@@ -160,6 +160,24 @@
         ],
         "mainFile": "src/components/Orbitals/index.js",
         "trackDir": "src/components/Orbitals",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "joshk.react-spinners-css/ouroboro@1.1.1": {
+        "files": [
+            {
+                "relativePath": "src/components/Ouroboro/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/components/Ouroboro/style.css",
+                "test": false,
+                "name": "style.css"
+            }
+        ],
+        "mainFile": "src/components/Ouroboro/index.js",
+        "trackDir": "src/components/Ouroboro",
         "origin": "AUTHORED",
         "exported": true
     },
@@ -235,5 +253,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "version": "14.3.0"
+    "version": "14.4.1"
 }
