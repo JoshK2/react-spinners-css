@@ -22,7 +22,8 @@ If you want to add your own spinner, please follow the [contributing guidelines]
 ## [Live Demo](https://bit.dev/joshk/react-spinners-css)
 Browse components and explore their props with [Bit](https://bit.dev/joshk/react-spinners-css).  
 Install specific react spinner component with npm, yarn or bit without having to install the whole project.  
-[Install components and live demo](https://bit.dev/joshk/react-spinners-css)
+[Install components and live demo](https://bit.dev/joshk/react-spinners-css)  
+<a href="https://bit.dev/joshk/react-spinners-css" target="_blank"><img width="200" height="39" src="https://i.imagesup.co/images2/4a64f008951cd66e56d4f1e0141a27df584a1e94.png"></a>
 
   
 ## 🚀 List of Spinners - PropTypes and Default Props
