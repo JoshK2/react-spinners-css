@@ -146,6 +146,16 @@ const SizeProp = () => {
                 <Facebook color="#be97e8" />
                 <Facebook color="#be97e8" size={40} />
                 <Facebook color="#be97e8" size={20} />
+             </div>
+             <div className="block">
+                <Ripple color="#be97e8" />
+                <Ripple color="#be97e8" size={40} />
+                <Ripple color="#be97e8" size={20} />
+            </div>
+            <div className="block">
+                <Hourglass color="#be97e8" />
+                <Hourglass color="#be97e8" size={24} />
+                <Hourglass color="#be97e8" size={16} />
             </div>
             <div style={{ clear: 'both' }}></div>
         </div>
