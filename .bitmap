@@ -73,7 +73,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.react-spinners-css/facebook@1.1.2": {
+    "joshk.react-spinners-css/facebook@1.1.3": {
         "files": [
             {
                 "relativePath": "src/components/Facebook/index.js",
