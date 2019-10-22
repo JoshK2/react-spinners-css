@@ -59,7 +59,7 @@ jobs:
 
       - run: npm config set '@bit:registry' https://node.bit.dev
       - run: npm install && sudo npm i bit-bin -g
-      - run: bit config set analytics_reporting false && bit config set error_reporting false
+      - run: bit config set analytics_reporting false && bit config set error_reporting false && bit config set user.token ${BIT_TOKEN}
       - run: bit import
 
       - save_cache:
