@@ -57,7 +57,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: npm config set '@bit:registry' https://node.bit.dev && npm install && sudo npm i bit-bin -g
+      - run: npm config set '@bit:registry' https://node.bit.dev && npm install && sudo npm i bit-bin -g && bit config set analytics_reporting false
 
       - save_cache:
           paths:
