@@ -157,6 +157,11 @@ const SizeProp = () => {
                 <Hourglass color="#be97e8" size={24} />
                 <Hourglass color="#be97e8" size={16} />
             </div>
+            <div className="block">
+                <Ellipsis color="#be97e8" />
+                <Ellipsis color="#be97e8" size={40} />
+                <Ellipsis color="#be97e8" size={20} />
+            </div>
             <div style={{ clear: 'both' }}></div>
         </div>
     )
