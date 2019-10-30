@@ -7,7 +7,7 @@ export default function Hourglass({ color, size, className, style }) {
         <div className={`lds-hourglass ${className}`} style={{ ...style }}>
             <div
                 className="lds-hourglass-after"
-                style={{ background: color, 'border-width': size, 'border-height': size }}
+                style={{ background: color, borderWidth: size, borderHeight: size }}
             ></div>
         </div>
     )

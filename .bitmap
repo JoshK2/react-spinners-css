@@ -127,7 +127,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.react-spinners-css/hourglass@1.1.4": {
+    "joshk.react-spinners-css/hourglass@1.1.5": {
         "files": [
             {
                 "relativePath": "src/components/Hourglass/index.js",
