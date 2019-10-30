@@ -1,4 +1,5 @@
 # React Spinners CSS Loaders ([Vue](https://github.com/JoshK2/vue-spinners-css), [Angular](https://github.com/JoshK2/ng-spinners))
+[![CircleCI](https://circleci.com/gh/JoshK2/react-spinners-css.svg?style=svg)](https://circleci.com/gh/JoshK2/react-spinners-css)
 [![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Freact-spinners-css)](https://bit.dev/joshk/react-spinners-css)
 [![npm version](https://badge.fury.io/js/react-spinners-css.svg)](https://www.npmjs.com/package/react-spinners-css)
 [![GitHub stars](https://img.shields.io/github/stars/joshk2/react-spinners-css)](https://github.com/JoshK2/react-spinners-css/stargazers)
@@ -8,7 +9,7 @@
 <span class="badge-buymeacoffee"><a href="https://ko-fi.com/X8X614J76" title="Donate to this project using Ko-fi"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-support-%23ff5f5f" alt="Buy Me A Coffee donate button" /></a></span>
 
 <p align="center">
-  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/1990710a88808ee8914167c74f57e604c5ed91fe.gif"></a>
+  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/1d67baaff0ba984979234d95271099843299dda1.gif"></a>
 </p>
 
 Amazing collection of React spinners components with pure css.  
@@ -22,7 +23,8 @@ If you want to add your own spinner, please follow the [contributing guidelines]
 ## [Live Demo](https://bit.dev/joshk/react-spinners-css)
 Browse components and explore their props with [Bit](https://bit.dev/joshk/react-spinners-css).  
 Install specific react spinner component with npm, yarn or bit without having to install the whole project.  
-[Install components and live demo](https://bit.dev/joshk/react-spinners-css)
+[Install components and live demo](https://bit.dev/joshk/react-spinners-css)  
+<a href="https://bit.dev/joshk/react-spinners-css" target="_blank"><img width="200" height="39" src="https://i.imagesup.co/images2/4a64f008951cd66e56d4f1e0141a27df584a1e94.png"></a>
 
   
 ## 🚀 List of Spinners - PropTypes and Default Props
@@ -36,15 +38,18 @@ Component that accepts `size` prop have a default size in pixel.
 | `<Default/>`     | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Ellipsis/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<DualRing/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
-| `<Facebook/>`    | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Facebook/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
+| `<Ellipsis/>`    | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Facebook/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Grid/>`        | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Heart/>`       | `#7f58af`     | `80`          | `""`              | `{}`          |
-| `<Hourglass/>`   | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Hourglass/>`   | `#7f58af`     | `32`          | `""`              | `{}`          |
 | `<Ring/>`        | `#7f58af`     | `80`          | `""`              | `{}`          |
-| `<Ripple/>`      | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Ripple/>`      | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Roller/>`      | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Spinner/>`     | `#7f58af`     | -             | `""`              | `{}`          |
 | `<Orbitals/>`    | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Ouroboro/>`    | `#7f58af`     | -             | `""`              | `{}`          |
 
 
 ## 📦 Installation
