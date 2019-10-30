@@ -55,7 +55,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "joshk.react-spinners-css/ellipsis@1.1.5": {
+    "joshk.react-spinners-css/ellipsis@1.1.6": {
         "files": [
             {
                 "relativePath": "src/components/Ellipsis/index.js",
