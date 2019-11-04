@@ -162,6 +162,16 @@ const SizeProp = () => {
                 <Ellipsis color="#be97e8" size={40} />
                 <Ellipsis color="#be97e8" size={20} />
             </div>
+            <div className="block">
+                <Default color="#be97e8" />
+                <Default color="#be97e8" size={40} />
+                <Default color="#be97e8" size={20} />
+            </div>
+            <div className="block">
+                <Grid color="#be97e8" />
+                <Grid color="#be97e8" size={40} />
+                <Grid color="#be97e8" size={20} />
+            </div>
             <div style={{ clear: 'both' }}></div>
         </div>
     )

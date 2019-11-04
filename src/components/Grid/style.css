@@ -6,55 +6,55 @@
   }
   .lds-grid div {
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     background: #fff;
     animation: lds-grid 1.2s linear infinite;
   }
   .lds-grid div:nth-child(1) {
-    top: 8px;
-    left: 8px;
+    top: 10%;
+    left: 10%;
     animation-delay: 0s;
   }
   .lds-grid div:nth-child(2) {
-    top: 8px;
-    left: 32px;
+    top: 10%;
+    left: 40%;
     animation-delay: -0.4s;
   }
   .lds-grid div:nth-child(3) {
-    top: 8px;
-    left: 56px;
+    top: 10%;
+    left: 70%;
     animation-delay: -0.8s;
   }
   .lds-grid div:nth-child(4) {
-    top: 32px;
-    left: 8px;
+    top: 40%;
+    left: 10%;
     animation-delay: -0.4s;
   }
   .lds-grid div:nth-child(5) {
-    top: 32px;
-    left: 32px;
+    top: 40%;
+    left: 40%;
     animation-delay: -0.8s;
   }
   .lds-grid div:nth-child(6) {
-    top: 32px;
-    left: 56px;
+    top: 40%;
+    left: 70%;
     animation-delay: -1.2s;
   }
   .lds-grid div:nth-child(7) {
-    top: 56px;
-    left: 8px;
+    top: 70%;
+    left: 10%;
     animation-delay: -0.8s;
   }
   .lds-grid div:nth-child(8) {
-    top: 56px;
-    left: 32px;
+    top: 70%;
+    left: 40%;
     animation-delay: -1.2s;
   }
   .lds-grid div:nth-child(9) {
-    top: 56px;
-    left: 56px;
+    top: 70%;
+    left: 70%;
     animation-delay: -1.6s;
   }
   @keyframes lds-grid {

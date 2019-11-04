@@ -35,11 +35,11 @@ Component that accepts `size` prop have a default size in pixel.
 | Spinner          | color: string | size: number  | className: string | style: object |
 | ---------------- | ------------  | ------------- | ----------------- | ------------- |
 | `<Circle/>`      | `#7f58af`     | `64`          | `""`              | `{}`          |
-| `<Default/>`     | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Default/>`     | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Ellipsis/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<DualRing/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Facebook/>`    | `#7f58af`     | `80`          | `""`              | `{}`          |
-| `<Grid/>`        | `#7f58af`     | -             | `""`              | `{}`          |
+| `<Grid/>`        | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Heart/>`       | `#7f58af`     | `80`          | `""`              | `{}`          |
 | `<Hourglass/>`   | `#7f58af`     | `32`          | `""`              | `{}`          |
 | `<Ring/>`        | `#7f58af`     | `80`          | `""`              | `{}`          |
