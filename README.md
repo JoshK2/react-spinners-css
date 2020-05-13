@@ -106,9 +106,7 @@ You can see the components locally by cloning this repo and doing the following 
 - If you want to update or add features to some spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
 
 ## 👏🏻 Support my open-source
-If you like to support my open-source contributions and feeling generous, feel free to:
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X614J76)
+If you like to support my open-source contributions please star and share this project. 💫
 
 ## 📄 License
 [MIT](https://github.com/JoshK2/react-spinners-css/blob/master/LICENSE)
