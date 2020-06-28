@@ -120,10 +120,10 @@ You can see the components locally by cloning this repo and doing the following 
 
 If you like to support my open-source contributions please star and share this project. 💫
 
-## How to use with SSR?
+## ❔How to use with SSR?
 
-- How to use with Next.js?
-  Install [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) and set library CSS to be transpiled.
+- How to use with Next.js?  
+  Install [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) and set library CSS to be transpiled.  
   Example configuration with the library package or with a Bit component:
 
   ```
@@ -136,7 +136,7 @@ If you like to support my open-source contributions please star and share this p
   module.exports = withTM()
   ```
 
-- How to use with Razzle?
+- How to use with Razzle?  
   Create `razzle.config.js` file and add the following:
 
   ```
