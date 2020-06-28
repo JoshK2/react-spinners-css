@@ -1,6 +1,6 @@
 {
   "name": "react-spinners-css",
-  "version": "1.1.9",
+  "version": "1.2.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -53,10 +53,13 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "classnames": "^2.2.6",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
     "@bit/joshk.jotils.get-random-color": "^2.0.8",
     "prettier": "^1.18.2",
     "react": "^16.8.6",

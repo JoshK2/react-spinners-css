@@ -1,0 +1,117 @@
+.lds-orbitals {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-orbitals * {
+  --center: translate(-50%, -50%);
+}
+.lds-orbitals .center {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: var(--center);
+}
+.lds-orbitals .outer-spin,
+.lds-orbitals .inner-spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.lds-orbitals .inner-arc {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 3px solid;
+}
+.lds-orbitals .inner-arc_start-a {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(45deg);
+}
+.lds-orbitals .inner-arc_end-a {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(25deg);
+}
+.lds-orbitals .inner-moon-a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: var(--center) translate(17px, 0);
+}
+.lds-orbitals .inner-moon-b {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: var(--center) translate(-17px, 0);
+}
+.lds-orbitals .inner-arc_start-b {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(65deg) scale(-1, -1);
+}
+.lds-orbitals .inner-arc_end-b {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(45deg) scale(-1, -1);
+}
+.lds-orbitals .outer-arc {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid;
+}
+.lds-orbitals .outer-arc_start-a {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(65deg);
+}
+.lds-orbitals .outer-arc_end-a {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(45deg);
+}
+.lds-orbitals .outer-moon-a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  transform: var(--center) translate(32px, 0);
+}
+.lds-orbitals .outer-moon-b {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  transform: var(--center) translate(-32px, 0);
+}
+.lds-orbitals .outer-arc_start-b {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(65deg) scale(-1, -1);
+}
+.lds-orbitals .outer-arc_end-b {
+  border-color: transparent transparent transparent;
+  transform: var(--center) rotate(45deg) scale(-1, -1);
+}
+.lds-orbitals .outer-spin {
+  animation: spin 4s linear infinite;
+}
+.lds-orbitals .inner-spin {
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
