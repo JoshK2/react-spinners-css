@@ -130,7 +130,7 @@ If you like to support my open-source contributions please star and share this p
   // next.config.js
   const withTM = require('next-transpile-modules')([
     'react-spinners-css',
-    '@bit/joshk.react-spinners-css.circle',
+    '@bit/*',
   ]) // pass the modules you would like to see transpiled
 
   module.exports = withTM()
