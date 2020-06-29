@@ -155,7 +155,7 @@ If you like to support my open-source contributions please star and share this p
                   /\.(mp4|mp3|ogg|swf|webp)$/,
                   /\.(css|scss|sass|sss|less)$/,
                   /^react-spinners-css/,
-                  /^@bit\/joshk\.react-spinners-css\.circle/,
+                  /^@bit\/(.*)/,
                 ].filter(Boolean),
               }),
             ]
