@@ -1,9 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import styles from './style.module.css'
+import type { Props } from '../types'
 
-export default function Roller({ color, className, style }) {
+type RollerProps = Omit<Props, 'size'>
+
+export default function Roller({ color = '#7f58af', className, style }: RollerProps) {
   const circles = [...Array(8)].map((_, index) => {
     return (
       <div key={index}>
@@ -17,19 +18,4 @@ export default function Roller({ color, className, style }) {
       {circles}
     </div>
   )
-}
-
-Roller.propTypes = {
-  /** hex color */
-  color: PropTypes.string,
-  /** class name  */
-  className: PropTypes.string,
-  /** style object */
-  style: PropTypes.object,
-}
-
-Roller.defaultProps = {
-  color: '#7f58af',
-  className: '',
-  style: {},
 }

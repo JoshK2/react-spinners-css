@@ -1,9 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import styles from './style.module.css'
+import type { Props } from '../types'
 
-export default function Orbitals({ color, className, style }) {
+export default function Orbitals({ color = '#7f58af', className, style }: Props) {
   return (
     <div className={classNames(styles['lds-orbitals'], className)} style={{ ...style }}>
       <div className={classNames(styles['center'])} style={{ background: color }}></div>
@@ -49,19 +48,4 @@ export default function Orbitals({ color, className, style }) {
       </div>
     </div>
   )
-}
-
-Orbitals.propTypes = {
-  /** hex color */
-  color: PropTypes.string,
-  /** class name  */
-  className: PropTypes.string,
-  /** style object */
-  style: PropTypes.object,
-}
-
-Orbitals.defaultProps = {
-  color: '#7f58af',
-  className: '',
-  style: {},
 }
