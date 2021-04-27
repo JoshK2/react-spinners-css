@@ -42,8 +42,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:lib": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
-    "build:lib2": "rm -rf lib && npm run build:esm && npm run build:cjs && node copyfiles.js",
+    "build:lib": "rm -rf lib && npm run build:esm && npm run build:cjs && node copyfiles.js",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
     "build:bit": "rm -rf dist && bit build",
@@ -95,7 +94,7 @@
   },
   "bit": {
     "env": {
-      "compiler": "bit.envs/compilers/react@1.0.18"
+      "compiler": "bit.envs/compilers/react-typescript@4.0.0"
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
