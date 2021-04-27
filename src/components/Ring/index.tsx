@@ -1,9 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import styles from './style.module.css'
+import type { Props } from '../types'
 
-export default function Ring({ color, size, className, style }) {
+export default function Ring({ color = '#7f58af', size = 80, className, style }: Props) {
   const circles = [...Array(4)].map((_, index) => {
     return (
       <div
@@ -24,22 +23,4 @@ export default function Ring({ color, size, className, style }) {
       {circles}
     </div>
   )
-}
-
-Ring.propTypes = {
-  /** hex color */
-  color: PropTypes.string,
-  /** size in pixel */
-  size: PropTypes.number,
-  /** class name  */
-  className: PropTypes.string,
-  /** style object */
-  style: PropTypes.object,
-}
-
-Ring.defaultProps = {
-  color: '#7f58af',
-  size: 80,
-  className: '',
-  style: {},
 }

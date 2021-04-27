@@ -1,9 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import styles from './style.module.css'
+import type { Props } from '../types'
 
-export default function Ouroboro({ color, className, style }) {
+export default function Ouroboro({ color = '#7f58af', style, className }: Props) {
   return (
     <div className={classNames(styles['lds-ouroboro'], className)} style={{ ...style }}>
       <span className={classNames(styles.left)}>
@@ -14,19 +13,4 @@ export default function Ouroboro({ color, className, style }) {
       </span>
     </div>
   )
-}
-
-Ouroboro.propTypes = {
-  /** hex color */
-  color: PropTypes.string,
-  /** class name  */
-  className: PropTypes.string,
-  /** style object */
-  style: PropTypes.object,
-}
-
-Ouroboro.defaultProps = {
-  color: '#7f58af',
-  className: '',
-  style: {},
 }

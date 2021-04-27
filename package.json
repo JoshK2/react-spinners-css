@@ -1,16 +1,20 @@
 {
-  "name": "@JoshK2/react-spinners-css",
-  "version": "1.2.3",
+  "name": "react-spinners-css",
+  "version": "2.0.0",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
   "files": [
-    "dist",
+    "lib",
     "README.md"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/JoshK2/react-spinners-css.git"
+    "url": "https://github.com/JoshK2/react-spinners-css"
   },
   "homepage": "https://bit.dev/joshk/react-spinners-css",
   "keywords": [
@@ -35,47 +39,62 @@
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
-    "build:lib": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
-    "build:bit": "rm -rf dist && bit build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "build:lib": "rm -rf lib && npm run build:esm && npm run build:cjs && node copyfiles.js",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "build:bit": "rm -rf dist && bit build",
+    "format": "prettier --write \"src/**/*.tsx\" \"src/**/*.ts\"",
     "deploy:npm": "npm publish",
     "deploy:bit": "bit export joshk.react-spinners-css"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "dependencies": {
-    "classnames": "^2.2.6",
-    "prop-types": "^15.7.2"
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/preset-env": "^7.10.3",
-    "@babel/preset-react": "^7.10.1",
-    "@bit/joshk.jotils.get-random-color": "^2.0.8",
-    "prettier": "^1.18.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "^3.1.1"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "copyfiles": "^2.4.1",
+    "typescript-plugin-css-modules": "^3.2.0"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "bit": {
     "env": {
-      "compiler": "bit.envs/compilers/react@1.0.18"
+      "compiler": "bit.envs/compilers/react-typescript@4.0.0"
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"

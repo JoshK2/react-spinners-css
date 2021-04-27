@@ -1,9 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import styles from './style.module.css'
+import type { Props } from '../types'
 
-export default function Spinner({ color, className, style }) {
+type SpinnerProps = Omit<Props, 'size'>
+
+export default function Spinner({ color = '#7f58af', className, style }: SpinnerProps) {
   const circles = [...Array(12)].map((_, index) => {
     return (
       <div key={index}>
@@ -17,19 +18,4 @@ export default function Spinner({ color, className, style }) {
       {circles}
     </div>
   )
-}
-
-Spinner.propTypes = {
-  /** hex color */
-  color: PropTypes.string,
-  /** class name  */
-  className: PropTypes.string,
-  /** style object */
-  style: PropTypes.object,
-}
-
-Spinner.defaultProps = {
-  color: '#7f58af',
-  className: '',
-  style: {},
 }
