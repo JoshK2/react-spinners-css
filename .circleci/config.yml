@@ -71,8 +71,8 @@ jobs:
       - run: npm run build:bit
 
 workflows:
-   version: 2
-   build:lib_and_build:bit:
-     jobs:
-       - build:lib
-       - build:bit
+  version: 2
+  build:lib_and_build:bit:
+    jobs:
+      - build:lib
+      - build:bit
