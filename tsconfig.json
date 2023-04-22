@@ -1,33 +1,8 @@
 {
+  "extends": "./node_modules/@teambit/react/typescript/tsconfig.json",
+  // "include": [],
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "outDir": "lib/esm",
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": false,
-    "jsx": "react-jsx",
-    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    "noEmit": true
   },
-  "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "**/*.test.ts",
-    "**/*.test.tsx",
-    "./src/index.tsx",
-    "./src/setupTests.ts",
-    "./src/reportWebVitals.ts"
-  ]
+  "exclude": ["dist"]
 }
