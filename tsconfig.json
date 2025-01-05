@@ -5,6 +5,9 @@
     "typeRoots": [
       "./node_modules/.cache/global-types",
       "./node_modules/@types"
-    ]
-  }
+    ],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": ["src"],
+  "exclude": ["**/*.composition.tsx"]
 }

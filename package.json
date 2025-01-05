@@ -1,10 +1,8 @@
 {
   "name": "react-spinners-css",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "private": false,
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/esm/index.d.ts",
+  "main": "./lib/cjs/src/components/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -38,10 +36,8 @@
   "author": "JoshK2",
   "license": "MIT",
   "scripts": {
-    "build:lib": "rm -rf lib && npm run build:esm && npm run build:cjs && node copyfiles.js",
-    "build:esm": "tsc",
+    "build:lib": "rm -rf lib && npm run build:cjs && node copyfiles.js",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
-    "build:bit": "rm -rf dist && bit build --unmodified",
     "deploy:npm": "npm publish"
   },
   "dependencies": {
