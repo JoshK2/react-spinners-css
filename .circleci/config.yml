@@ -7,7 +7,7 @@ jobs:
   build:lib:
     docker:
       # specify the version you desire here
-      - image: circleci/node:8.12.0
+      - image: circleci/node:20.10.0
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -40,7 +40,7 @@ jobs:
   build:bit:
     docker:
       # specify the version you desire here
-      - image: circleci/node:8.12.0
+      - image: circleci/node:20.10.0
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
