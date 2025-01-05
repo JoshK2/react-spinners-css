@@ -26,7 +26,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: npm config set '@bit:registry' https://node.bit.dev && npm install
+      - run: npm config set @joshk:registry="https://node-registry.bit.cloud"
+      - run: npx @teambit/bvm install
+      - run: bit install
 
       - save_cache:
           paths:
@@ -57,10 +59,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: npm config set '@bit:registry' https://node.bit.dev
-      - run: npm install && sudo npm i bit-bin -g
-      - run: bit config set analytics_reporting false && bit config set error_reporting false && bit config set user.token ${BIT_TOKEN}
-      - run: bit import
+      - run: npm config set @joshk:registry="https://node-registry.bit.cloud"
+      - run: npx @teambit/bvm install
+      - run: bit install
 
       - save_cache:
           paths:

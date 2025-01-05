@@ -1,0 +1,1 @@
+export { Ripple } from './ripple';

@@ -1,7 +1,7 @@
 # React Spinners CSS Loaders ([Vue](https://github.com/JoshK2/vue-spinners-css), [Angular](https://github.com/JoshK2/ng-spinners))
 
 [![CircleCI](https://circleci.com/gh/JoshK2/react-spinners-css.svg?style=svg)](https://circleci.com/gh/JoshK2/react-spinners-css)
-[![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Freact-spinners-css)](https://bit.dev/joshk/react-spinners-css)
+[![bit components](https://img.shields.io/badge/bit_components-14-6e3991)](https://bit.cloud/joshk/react-spinners-css)
 [![npm version](https://badge.fury.io/js/react-spinners-css.svg)](https://www.npmjs.com/package/react-spinners-css)
 [![GitHub stars](https://img.shields.io/github/stars/joshk2/react-spinners-css)](https://github.com/JoshK2/react-spinners-css/stargazers)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
@@ -9,25 +9,25 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
 
 <p align="center">
-  <a href="https://bit.dev/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/1d67baaff0ba984979234d95271099843299dda1.gif"></a>
+  <a href="https://bit.cloud/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/1d67baaff0ba984979234d95271099843299dda1.gif"></a>
 </p>
 
 Amazing collection of React spinners components with pure css.  
 The React spinners are based on loading.io and from all over the web.  
 If you want to add your own spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
 
-- 💅No extra CSS imports
-- ✂️Zero dependencies
-- 📦Spinners can be installing separately
+- 💅 No extra CSS imports
+- ✂️ Zero dependencies
+- 📦 Spinners can be installing separately
 
-## [Live Demo](https://bit.dev/joshk/react-spinners-css)
+## [Live Demo](https://bit.cloud/joshk/react-spinners-css)
 
-Browse components and explore their props with [Bit](https://bit.dev/joshk/react-spinners-css).  
+Browse components and explore their props with [Bit](https://bit.cloud/joshk/react-spinners-css).  
 Install specific react spinner component with npm, yarn or bit without having to install the whole project.  
-[Install components and live demo](https://bit.dev/joshk/react-spinners-css)  
-<a href="https://bit.dev/joshk/react-spinners-css" target="_blank"><img width="200" height="39" src="https://i.imagesup.co/images2/4a64f008951cd66e56d4f1e0141a27df584a1e94.png"></a>
+[Install components and live demo](https://bit.cloud/joshk/react-spinners-css)  
+<a href="https://bit.cloud/joshk/react-spinners-css" target="_blank"><img width="200" height="39" src="https://i.imagesup.co/images2/4a64f008951cd66e56d4f1e0141a27df584a1e94.png"></a>
 
-## 🚀 List of Spinners - PropTypes and Default Props
+## 🚀 List of Spinners
 
 Each component accepts a `color` prop, and few accepts also `size` prop.  
 The default `color` prop is `#7f58af`.  
@@ -61,32 +61,29 @@ $ npm i --save react-spinners-css
 ### Play and install react spinners with Bit
 
 Install specific react spinner component with bit, npm or yarn without having to install the whole project.  
-Using [bit](https://bit.dev/joshk/react-spinners-css) to play with live demo, and try the spinners before install.
+Using [bit](https://bit.cloud/joshk/react-spinners-css) to play with live demo, and try the spinners before install.
 
 set npm regisetry config(one time action):
 
 ```bash
-npm config set '@bit:registry' https://node.bit.dev
+npm config set @joshk:registry="https://node-registry.bit.cloud"
 ```
 
 and use your favorite package manager:
 
 ```bash
-npm i @bit/joshk.react-spinners-css.facebook
-yarn add @bit/joshk.react-spinners-css.facebook
-bit import joshk.react-spinners-css/facebook
+npm i @joshk/react-spinners-css.heart
+yarn add @joshk/react-spinners-css.heart
+bit install @joshk/react-spinners-css.heart
 ```
 
 ## 💻 Usage Examples
-
-you can use a random color from [jotils](https://bit.dev/joshk/jotils/get-random-color)
 
 ```javascript
 //using npm or yarn
 import { Circle, Heart } from 'react-spinners-css';
 //using bit
-import Facebook from '@bit/joshk.react-spinners-css.facebook';
-import { getRandomColor } from '@bit/joshk.jotils.get-random-color'
+import { Facebook } from '@joshk/react-spinners-css.facebook';
 ...
 render() {
    return(
@@ -94,7 +91,7 @@ render() {
        <Circle /> //default color is #7f58af
        <Circle color="red" />
        <Circle color="#be97e8" size={200} /> //size prop is number in pixel
-       <Heart color={getRandomColor()} />
+       <Heart />
        <Facebook /> //default color is #7f58af
        <Facebook color="red" />
      </div>
@@ -106,8 +103,8 @@ render() {
 
 You can see the components locally by cloning this repo and doing the following steps:
 
-- Install dependencies from `package.json`, run: `npm install`.
-- Run the app in the development mode, run: `npm run start`.
+- Install [Bit](https://bit.dev/docs/getting-started/installing-bit/installing-bit).
+- Run the project using `bit start`.
 
 ## 🙌 Contributing
 
@@ -119,54 +116,6 @@ You can see the components locally by cloning this repo and doing the following 
 ## 👏🏻 Support my open-source
 
 If you like to support my open-source contributions please star and share this project. 💫
-
-## ❔How to use with SSR?
-
-- How to use with Next.js?  
-  Install [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) and set library CSS to be transpiled.  
-  Example configuration with the library package or with a Bit component:
-
-  ```
-  // next.config.js
-  const withTM = require('next-transpile-modules')([
-    'react-spinners-css',
-    '@bit/*',
-  ]) // pass the modules you would like to see transpiled
-
-  module.exports = withTM()
-  ```
-
-- How to use with Razzle?  
-  Create `razzle.config.js` file and add the following:
-
-  ```
-  const nodeExternals = require('webpack-node-externals')
-
-  module.exports = {
-    modify: (config, { target, dev }) => {
-      config.externals =
-        target === 'node'
-          ? [
-              nodeExternals({
-                whitelist: [
-                  dev ? 'webpack/hot/poll?300' : null,
-                  /\.(eot|woff|woff2|ttf|otf)$/,
-                  /\.(svg|png|jpg|jpeg|gif|ico)$/,
-                  /\.(mp4|mp3|ogg|swf|webp)$/,
-                  /\.(css|scss|sass|sss|less)$/,
-                  /^react-spinners-css/,
-                  /^@bit\/(.*)/,
-                ].filter(Boolean),
-              }),
-            ]
-          : []
-      return config
-    },
-  }
-
-  ```
-
-  This is a simple example [based on the Razzle repo](https://github.com/jaredpalmer/razzle/issues/689).
 
 ## 📄 License
 

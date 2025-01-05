@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/JoshK2/react-spinners-css"
   },
-  "homepage": "https://bit.dev/joshk/react-spinners-css",
+  "homepage": "https://bit.cloud/joshk/react-spinners-css",
   "keywords": [
     "react-spinners",
     "react-spinner",
@@ -38,17 +38,11 @@
   "author": "JoshK2",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "build:lib": "rm -rf lib && npm run build:esm && npm run build:cjs && node copyfiles.js",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
-    "build:bit": "rm -rf dist && bit build",
-    "format": "prettier --write \"src/**/*.tsx\" \"src/**/*.ts\"",
-    "deploy:npm": "npm publish",
-    "deploy:bit": "bit export joshk.react-spinners-css"
+    "build:bit": "rm -rf dist && bit build --unmodified",
+    "deploy:npm": "npm publish"
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -73,30 +67,5 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "bit": {
-    "env": {
-      "compiler": "bit.envs/compilers/react-typescript@4.0.0"
-    },
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
   }
 }
