@@ -1,4 +1,4 @@
-# React Spinners CSS Loaders ([Vue](https://github.com/JoshK2/vue-spinners-css), [Angular](https://github.com/JoshK2/ng-spinners))
+# React Spinners CSS Loaders ([Vue](https://github.com/JoshK2/vue-spinners-css), [Angular](https://github.com/JoshK2/ng-spinners), [Blazor](https://github.com/ayodejii/blazor-spinner-css))
 
 [![bit components](https://img.shields.io/badge/bit_components-14-6e3991)](https://bit.cloud/joshk/react-spinners-css)
 [![npm version](https://badge.fury.io/js/react-spinners-css.svg)](https://www.npmjs.com/package/react-spinners-css)
