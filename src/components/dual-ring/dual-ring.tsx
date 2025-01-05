@@ -1,9 +1,15 @@
 import React from 'react';
 import classNames from 'classnames';
-import styles from './style.module.css';
 import type { SpinnerProps } from '@joshk/react-spinners-css.types';
+import styles from './style.module.css';
 
-export function DualRing({ color = '#7f58af', size = 80, className, style, ...rest }: SpinnerProps) {
+export function DualRing({
+  color = '#7f58af',
+  size = 80,
+  className,
+  style,
+  ...rest
+}: SpinnerProps) {
   return (
     <div
       className={classNames(styles['lds-dual-ring'], className)}
@@ -18,7 +24,7 @@ export function DualRing({ color = '#7f58af', size = 80, className, style, ...re
           width: size * 0.7 - 6,
           height: size * 0.7 - 6,
         }}
-      ></div>
+      />
     </div>
   );
 }
