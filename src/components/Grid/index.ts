@@ -1,1 +1,1 @@
-export { Grid } from './grid';
+export { Grid } from './grid.js';

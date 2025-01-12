@@ -1,13 +1,10 @@
 // bit-generated-typescript-config
 {
-  "extends": "./node_modules/.cache/tsconfig.bit.a58cd68fd4ed85402c3bd7225d34cbab1c692004.json",
+  "extends": "./node_modules/.cache/tsconfig.bit.fe7102b0aa96dc7364d3813a86bb6186c63633f4.json",
   "compilerOptions": {
     "typeRoots": [
       "./node_modules/.cache/global-types",
       "./node_modules/@types"
-    ],
-    "plugins": [{ "name": "typescript-plugin-css-modules" }]
-  },
-  "include": ["src"],
-  "exclude": ["**/*.composition.tsx"]
+    ]
+  }
 }

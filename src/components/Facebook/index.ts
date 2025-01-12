@@ -1,1 +1,1 @@
-export { Facebook } from './facebook';
+export { Facebook } from './facebook.js';

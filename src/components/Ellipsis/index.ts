@@ -1,1 +1,1 @@
-export { Ellipsis } from './ellipsis';
+export { Ellipsis } from './ellipsis.js';

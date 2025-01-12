@@ -1,1 +1,1 @@
-export { Ring } from './ring';
+export { Ring } from './ring.js';

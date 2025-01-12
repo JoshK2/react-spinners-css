@@ -1,1 +1,1 @@
-export { Hourglass } from './hourglass';
+export { Hourglass } from './hourglass.js';

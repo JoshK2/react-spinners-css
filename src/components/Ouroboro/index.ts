@@ -1,1 +1,1 @@
-export { Ouroboro } from './ouroboro';
+export { Ouroboro } from './ouroboro.js';

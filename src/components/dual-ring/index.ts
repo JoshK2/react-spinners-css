@@ -1,1 +1,1 @@
-export { DualRing } from './dual-ring';
+export { DualRing } from './dual-ring.js';

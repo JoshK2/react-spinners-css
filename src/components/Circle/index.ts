@@ -1,1 +1,1 @@
-export { Circle } from './circle';
+export { Circle } from './circle.js';

@@ -1,1 +1,1 @@
-export type { SpinnerProps } from './types'
+export type { SpinnerProps } from './types.js';

@@ -12,114 +12,107 @@
     "circle": {
         "name": "circle",
         "scope": "joshk.react-spinners-css",
-        "version": "1a690a7ee0632e8776dbdd375e42ed3a9ea43bfb",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/circle"
     },
     "default": {
         "name": "default",
         "scope": "joshk.react-spinners-css",
-        "version": "f2aed7e961453271085ddf61ead14d6b4334350d",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/default"
     },
     "dual-ring": {
         "name": "dual-ring",
         "scope": "joshk.react-spinners-css",
-        "version": "37ddb352cd06425aaaf9bf8a120ae028cbd84845",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/dual-ring"
     },
     "ellipsis": {
         "name": "ellipsis",
         "scope": "joshk.react-spinners-css",
-        "version": "a4bb35b469efe0389e6d68504f280e9f50e9d32d",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/ellipsis"
     },
     "facebook": {
         "name": "facebook",
         "scope": "joshk.react-spinners-css",
-        "version": "fa20bb3a5560b50c93e553ca232986eea19f4a89",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/facebook"
     },
     "grid": {
         "name": "grid",
         "scope": "joshk.react-spinners-css",
-        "version": "e103c7b2c30cdbbc7e30b35f9f186f1eed788e10",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/grid"
     },
     "heart": {
         "name": "heart",
         "scope": "joshk.react-spinners-css",
-        "version": "005c2211c51d10e57c6ddcabc1e71465adc4610f",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/heart"
     },
     "hourglass": {
         "name": "hourglass",
         "scope": "joshk.react-spinners-css",
-        "version": "d5898d58952c4ac2b72cc1d72532db02c3de0892",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/hourglass"
     },
     "orbitals": {
         "name": "orbitals",
         "scope": "joshk.react-spinners-css",
-        "version": "f8ebfa5687ee02845ea539e6bc76ba08279e93a7",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/orbitals"
     },
     "ouroboro": {
         "name": "ouroboro",
         "scope": "joshk.react-spinners-css",
-        "version": "fc337935abaf1cd56cc301685b37b05e82123a61",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/ouroboro"
     },
     "ring": {
         "name": "ring",
         "scope": "joshk.react-spinners-css",
-        "version": "12188ef3beca26f8a6ec78be87717cd8ce716e3a",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/ring"
     },
     "ripple": {
         "name": "ripple",
         "scope": "joshk.react-spinners-css",
-        "version": "b54befd643aef4a29c018609a8b3b2cfed289964",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/ripple"
     },
     "roller": {
         "name": "roller",
         "scope": "joshk.react-spinners-css",
-        "version": "faf4943a8e8479909840fb683dea40d2153bea60",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/roller"
     },
     "spinner": {
         "name": "spinner",
         "scope": "joshk.react-spinners-css",
-        "version": "13db9d01916053922f4dc9ba568bd883b8e4d3ba",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/spinner"
     },
     "types": {
         "name": "types",
         "scope": "joshk.react-spinners-css",
-        "version": "25bc7750d6cfc4d005066f34d38c415bc8222b08",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/types"
     },
-    "$schema-version": "17.0.0",
-    "_bit_lane": {
-        "id": {
-            "name": "fix-eslint-error",
-            "scope": "joshk.react-spinners-css"
-        },
-        "exported": true
-    }
+    "$schema-version": "17.0.0"
 }
