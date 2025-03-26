@@ -5,6 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/joshk2/react-spinners-css)](https://github.com/JoshK2/react-spinners-css/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/JoshK2/react-spinners-css/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joshkuttler)](https://twitter.com/JoshKuttler)
+[![libs.tech recommends](https://libs.tech/project/205101803/badge.svg)](https://libs.tech/project/205101803/react-spinners-css)
 
 <p align="center">
   <a href="https://bit.cloud/joshk/react-spinners-css"><img src="https://i.imagesup.co/images2/1d67baaff0ba984979234d95271099843299dda1.gif"></a>
